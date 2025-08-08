@@ -1,0 +1,37 @@
+[
+  {
+    "id": "p1",
+    "title": "Klassik Ağ Köynək",
+    "price": 35,
+    "image": "https://i.pinimg.com/736x/98/be/4c/98be4cb6f55785ff2b4adb47c3cc76ea.jpg",
+    "description": "Mükəmməl iş və gündəlik üçün klassik ağ köynək. 100% pambıq, rahat kəsim."
+  },
+  {
+    "id": "p2",
+    "title": "Qara Jeans",
+    "price": 49,
+    "image": "https://picsum.photos/id/1005/800/600",
+    "description": "Dayanıqlı və rahat qara jeans — hər mövsümə uyğundur."
+  },
+  {
+    "id": "p3",
+    "title": "Yay Donu (Çiçəkli)",
+    "price": 59,
+    "image": "https://picsum.photos/id/1025/800/600",
+    "description": "Axşam gəzintiləri üçün yüngül və təravətli yay donu."
+  },
+  {
+    "id": "p4",
+    "title": "İdman Ayaqqabısı",
+    "price": 89,
+    "image": "https://picsum.photos/id/1041/800/600",
+    "description": "Həftəsonu qaçışları və gündəlik istifadə üçün ergonomic idman ayaqqabısı."
+  },
+  {
+    "id": "p5",
+    "title": "Triko Sviter",
+    "price": 45,
+    "image": "https://picsum.photos/id/1062/800/600",
+    "description": "İlıq və yumşaq triko sviter, soyuq havalar üçün ideal."
+  }
+]

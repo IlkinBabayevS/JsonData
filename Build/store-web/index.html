@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JSON Kartlar — Dərs Nümunəsi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Product Cards — JSON ilə</h1>
+    <div class="controls">
+      <input id="searchInput" placeholder="Axtar... (ad, təsvir, qiymət)" />
+      <button id="resetBtn">Bütününü göstər</button>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- SPA: product list view or detail view rendered by JS -->
+    <section id="listView" class="grid"></section>
+
+    <section id="detailView" class="detail hidden">
+      <button id="backBtn">← Geri</button>
+      <div class="detail-card">
+        <img id="detailImg" alt="product image" />
+        <div class="detail-info">
+          <h2 id="detailTitle"></h2>
+          <p id="detailDesc"></p>
+          <p class="price" id="detailPrice"></p>
+          <button id="deleteFromDetail" class="danger">Sil</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Demo — JSON, HTML, CSS, Vanilla JS</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
